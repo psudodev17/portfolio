@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download Portfolio</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
+    }
+    .container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 3rem 2rem;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    h1 {
+      color: white;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+    .download-btn {
+      background: white;
+      color: #0ea5e9;
+      padding: 1rem 2.5rem;
+      border: none;
+      border-radius: 50px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .download-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📥 Download Your Portfolio</h1>
+    <p>Click the button below to download your portfolio project as a zip file (8.8 MB)</p>
+    <a href="kanishk-portfolio.zip" download="kanishk-portfolio.zip" class="download-btn">Download ZIP File</a>
+  </div>
+</body>
+</html>
